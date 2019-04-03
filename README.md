@@ -10,7 +10,7 @@ You will need a go 1.11+ environment in order to build Alert Handler for Custom 
 ``go build``
 
 in the Alert Handler for Custom Metrics directory. The resulting executable, given default configuration, should be run in the same folder.
-Note: For security reasons, Alert Handler for Custom Metrics should be owned and run by a non-priveledged Linux user.
+Note: For security reasons, Alert Handler for Custom Metrics should be owned and run by a non-priviledged Linux user.
 
 ## Configuration 
 

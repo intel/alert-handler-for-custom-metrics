@@ -14,5 +14,5 @@ Note: For security reasons, Alert Handler for Custom Metrics should be owned and
 
 ## Configuration 
 
-The file alert-handler-config.json contains the user configurable options. From this file you can add custom alerts, change the port number and URL path, and change the location of the scripts directory.
+The file alert-handler-config.json contains the user configurable options. From this file changes can be made to custom alerts, change the listening port number and URL path, and change the location of the scripts directory.
 New configuration files are picked up at run time.

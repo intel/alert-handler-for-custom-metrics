@@ -1,0 +1,23 @@
+{
+    "port":":9091",
+    "url-path":"/",
+    "script-directory" :"scripts/",
+    "alerts" : {
+            "mcelog_memory_error" : {
+                "name" : "",
+                "summary":"Fatal memory_error",
+                "status": "firing",
+                "script-type": "bash",
+                "script-name" : "action.sh",
+                "args": ["arg1","arg2"]
+            },
+            "high_memory" : {
+                "name":"high_memory",
+                "summary":"A very high amount of memory is being used.",
+                "status":"firing",
+                "script-type": "python2",
+                "script-name":"example.py",
+                "args": [""]
+            }
+        }
+}
